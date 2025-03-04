@@ -229,7 +229,7 @@ export const mockAccounts: Account[] = [
       account_name: true,
       account_number: true,
       account_number_text: '',
-      balance_usd: 2400000.0
+      balance_usd: 2384090.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -238,6 +238,18 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
+      {
+        dateTime: 'March 2, 2025',
+        description: 'Bank Charges XXXXXX8723',
+        status: 'Success',
+        amount_usd: -205.0
+      },
+      {
+        dateTime: 'March 2, 2025',
+        description: 'Maintenance',
+        status: 'Success',
+        amount_usd: -99.0
+      },
       {
         dateTime: 'March 1, 2025',
         description: 'Payment from Hollywood XXXXXX1552',
@@ -257,6 +269,18 @@ export const mockAccounts: Account[] = [
         amount_usd: 50000.0
       },
       {
+        dateTime: 'February 4, 2025',
+        description: 'Bank Charges XXXXXX0976',
+        status: 'Success',
+        amount_usd: -205.0
+      },
+      {
+        dateTime: 'February 4, 2025',
+        description: 'Maintenance',
+        status: 'Success',
+        amount_usd: -99.0
+      },
+      {
         dateTime: 'January 30, 2025',
         description: 'Check deposit XXXXXX4372',
         status: 'Success',
@@ -267,6 +291,36 @@ export const mockAccounts: Account[] = [
         description: 'IMG model auto pay XXXXXX1923',
         status: 'Success',
         amount_usd: -1001.0
+      },
+      {
+        dateTime: 'January 4, 2025',
+        description: 'Bank Charges XXXXXX8364',
+        status: 'Success',
+        amount_usd: -205.0
+      },
+      {
+        dateTime: 'January 4, 2025',
+        description: 'Maintenance',
+        status: 'Success',
+        amount_usd: -99.0
+      },
+      {
+        dateTime: 'January 3, 2025',
+        description: 'income Tax XXXXXX1369',
+        status: 'Success',
+        amount_usd: 1250.0
+      },
+      {
+        dateTime: 'January 1, 2025',
+        description: 'b/f XXXXXX0464',
+        status: 'Success',
+        amount_usd: 2385090.0
+      },
+      {
+        dateTime: 'December 31, 2024',
+        description: 'Annual Yearly Tax XXXXXX4456',
+        status: 'Success',
+        amount_usd: 13195.0
       },
       {
         dateTime: 'December 28, 2024',
@@ -287,16 +341,34 @@ export const mockAccounts: Account[] = [
         amount_usd: 60000.0
       },
       {
+        dateTime: 'November 22, 2024',
+        description: 'Wage Tax Income XXXXXX3451',
+        status: 'Success',
+        amount_usd: 16000.0
+      },
+      {
         dateTime: 'November 10, 2024',
         description: 'Check deposit XXXXXX6257',
         status: 'Success',
         amount_usd: 15000.0
       },
       {
+        dateTime: 'October 8, 2024',
+        description: 'Maintenance',
+        status: 'Success',
+        amount_usd: -99.0
+      },
+      {
         dateTime: 'October 5, 2024',
         description: 'IMG model auto pay XXXXXX1104',
         status: 'Success',
         amount_usd: -1001.0
+      },
+      {
+        dateTime: 'October 2, 2024',
+        description: 'Bank Charges XXXXXX8723',
+        status: 'Success',
+        amount_usd: -205.0
       },
       {
         dateTime: 'September 18, 2024',
@@ -327,6 +399,12 @@ export const mockAccounts: Account[] = [
         description: 'IMG model auto pay XXXXXX5216',
         status: 'Success',
         amount_usd: -1001.0
+      },
+      {
+        dateTime: 'January 4, 2024',
+        description: 'Income Tax XXXXXX1369',
+        status: 'Success',
+        amount_usd: 1250.0
       },
       {
         dateTime: 'December 20, 2023',
@@ -389,6 +467,12 @@ export const mockAccounts: Account[] = [
         amount_usd: -1001.0
       },
       {
+        dateTime: 'March 2, 2023',
+        description: 'Bank Charges XXXXXX8723',
+        status: 'Success',
+        amount_usd: -205.0
+      },
+      {
         dateTime: 'February 22, 2023',
         description: 'Payment from Hollywood XXXXXX6723',
         status: 'Success',
@@ -401,6 +485,12 @@ export const mockAccounts: Account[] = [
         amount_usd: -1750.0
       },
       {
+        dateTime: 'January 4, 2023',
+        description: 'Income Tax XXXXXX1369',
+        status: 'Success',
+        amount_usd: 1250.0
+      },
+      {
         dateTime: 'December 5, 2022',
         description: 'TV show no1 XXXXXX2861',
         status: 'Success',
@@ -411,6 +501,12 @@ export const mockAccounts: Account[] = [
         description: 'Check deposit XXXXXX4723',
         status: 'Success',
         amount_usd: 14000.0
+      },
+      {
+        dateTime: 'October 10, 2022',
+        description: 'Bank Charges XXXXXX8723',
+        status: 'Success',
+        amount_usd: -205.0
       },
       {
         dateTime: 'October 7, 2022',

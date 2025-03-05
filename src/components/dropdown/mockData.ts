@@ -20,6 +20,11 @@ export const listBks = [
     logo: "https://i.imgur.com/xR1FYm0.jpeg",
   },
   {
+    id: 32349,
+    name: "Westconsin Credit Union",
+    logo: "https://i.imgur.com/hsjdyjsd.jpeg",
+  },
+  {
     id: 4,
     name: "Citibank",
     // resize: true,
@@ -29,7 +34,6 @@ export const listBks = [
     id: 5,
     name: "U.S. Bank",
     logo: "https://i.imgur.com/p5A3hR7.jpeg",
-    // logo: "https://i.imgur.com/rNcdWoW.jpeg",
   },
   {
     id: 6,

@@ -11,7 +11,6 @@ interface Bks {
   id: number;
   name: string;
   resize?: boolean;
-  logo: string;
 }
 
 interface SelectBksProps {
@@ -43,15 +42,6 @@ const SelectBks: React.FC<SelectBksProps> = ({
     <div className="w-full">
       <div className="flex relative items-center justify-between w-full">
         <div className="flex relative w-full items-center gap-1">
-          {selectedBank && (
-            <Image
-              src={selectedBank.logo}
-              width={100}
-              height={100}
-              alt={`${selectedBank.name} logo`}
-              className={`w-7 h-6 absolute left-4 ${selectedBank.resize ? "w-11 h-5" : ""}`}
-            />
-            )}
           <input
             type="text"
             readOnly
@@ -60,7 +50,7 @@ const SelectBks: React.FC<SelectBksProps> = ({
             placeholder="Select a bank"
             // className={`w-full p-3 my-2 min-h-[60px] bg-[#f8f8f8] rounded-lg border-none text-[#2e2e2e] focus:outline-none ${selectedBank ? "pl-[55px]" : ""} ${selectedBank.resize ? "pl-[65px]" : ""}`}
             className={`w-full p-3 my-2 min-h-[60px] bg-[#f8f8f8] rounded-lg border-none text-[#2e2e2e] focus:outline-none ${
-              selectedBank ? (selectedBank.resize ? "pl-[65px]" : "pl-[55px]") : ""
+              selectedBank ? (selectedBank.resize ? "pl-[65px]" : "pl-[20px]") : ""
             }`}
           />
         </div>
@@ -94,15 +84,7 @@ const SelectBks: React.FC<SelectBksProps> = ({
                   }}
                   className="flex px-4 gap-2 items-center p-2 cursor-pointer hover:bg-[#006a44]/10"
                 >
-                  <div className="w-[60px] h-[50px] rounded-full flex items-center justify-center border">
-                    <Image
-                      src={bks.logo}
-                      width={100}
-                      height={100}
-                      alt={`${bks.name} logo`}
-                      className="max-w-max h-4"
-                    />
-                  </div> 
+               
                   <div className="text-left w-full">{bks.name}</div>
                 </div>
               ))}

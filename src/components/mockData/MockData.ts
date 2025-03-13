@@ -590,7 +590,7 @@ export const mockAccounts: Account[] = [
         amount_usd: 15000.0
       },
       {
-        dateTime: 'February 2, 2025',
+        dateTime: 'February 25, 2025',
         description: 'Account Open Fee XXXXXX8739',
         status: 'Success',
         amount_usd: 200.0

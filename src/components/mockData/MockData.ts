@@ -515,5 +515,86 @@ export const mockAccounts: Account[] = [
         amount_usd: -1001.0
       }
     ]
+  },
+  {
+    account_id: 'ACC004',
+    holder: {
+      firstName: 'Bernadette Sullivan',
+      lastName: '',
+      mobileNumber: '***-***-****',
+      email: 'B.Sullivan@gmail.com',
+      createdOn: '3/13/2025', // m/d/y
+      username: 'Bernadette1304',
+      password: 'saythetruth220'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_name: true,
+      account_number: true,
+      account_number_text: '',
+      balance_usd: 2000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '226829',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'March 13, 2025',
+        description: 'Credit from D&D Building XXXXXX8723',
+        status: 'Pending',
+        amount_usd: 400000.0
+      },
+      {
+        dateTime: 'March 12, 2025',
+        description: 'Withdrawal XXXXXX2324',
+        status: 'Success',
+        amount_usd: -2000.0
+      },
+      {
+        dateTime: 'March 11, 2025',
+        description: 'Debit from United airlines XXXXXX1367',
+        status: 'Success',
+        amount_usd: -1800.0
+      },
+      {
+        dateTime: 'March 11, 2025',
+        description: 'Purchase at Walmart XXXXXX3278',
+        status: 'Success',
+        amount_usd: -320.0
+      },
+      {
+        dateTime: 'March 11, 2025',
+        description: 'Purchase at  Queens Bee boutiques XXXXXX1038',
+        status: 'Success',
+        amount_usd: -400.0
+      },
+      {
+        dateTime: 'March 11, 2025',
+        description: 'Debit Tax office XXXXXX3689',
+        status: 'Success',
+        amount_usd: -600.0
+      },
+      {
+        dateTime: 'March 11, 2025',
+        description: 'Credit released from deposit XXXXXX8636',
+        status: 'Success',
+        amount_usd: 7000.0
+      },
+      {
+        dateTime: 'March 3, 2025',
+        description: 'Check Deposit XXXXXX3679',
+        status: 'Pending',
+        amount_usd: 15000.0
+      },
+      {
+        dateTime: 'February 2, 2025',
+        description: 'Account Open Fee XXXXXX8739',
+        status: 'Success',
+        amount_usd: 200.0
+      },
+    ]
   }
 ];

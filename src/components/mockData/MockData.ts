@@ -150,7 +150,7 @@ export const mockAccounts: Account[] = [
     transaction_history: [
       {
         dateTime: 'March 20, 2025',
-        description: 'Credit from MHunlimiteds USA',
+        description: 'Debit from MHunlimiteds USA',
         status: 'Success',
         amount_usd: -48000.0
       },

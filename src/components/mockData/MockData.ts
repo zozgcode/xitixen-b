@@ -139,7 +139,7 @@ export const mockAccounts: Account[] = [
       account_type: 'Checking',
       account_name: true,
       account_number: true,
-      balance_usd: 97164400.17
+      balance_usd: 177164400.17
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -148,6 +148,18 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
+      {
+        dateTime: "April 28, 2025",
+        description: "Wire Transfer from DEA Deutsche Erdoel AG - XXXXXX3287",
+        status: "Pending",
+        amount_usd: 80000000.0,
+      },
+      {
+        dateTime: 'March 20, 2025',
+        description: 'Debit from MHunlimiteds USA',
+        status: 'Success',
+        amount_usd: -48000.0
+      },
       {
         dateTime: 'March 20, 2025',
         description: 'Debit from MHunlimiteds USA',

@@ -110,27 +110,25 @@ export default function Transfer() {
     const errors: FormErrors = {};
 
     if (step === 1) {
-      if (step === 1) {
-        if (!formData.selectedBank) {
-          errors.selectedBank = 'Bank selection is required';
+      if (!formData.selectedBank) {
+        errors.selectedBank = 'Bank selection is required';
+      }
+
+      if (user?.bank_details.account_number || user?.bank_details.account_name) {
+        if (!formData.accountNumber) {
+          errors.accountNumber = 'Account number is required';
+        } else if (formData.accountNumber && (formData.accountNumber.length < 8 || formData.accountNumber.length > 12)) {
+          errors.accountNumber = 'Account number must be between 8 and 12 digits';
         }
 
-        if (user?.bank_details.account_number || user?.bank_details.account_name) {
-          if (!formData.accountNumber) {
-            errors.accountNumber = 'Account number is required';
-          } else if (formData.accountNumber && (formData.accountNumber.length < 8 || formData.accountNumber.length > 12)) {
-            errors.accountNumber = 'Account number must be between 8 and 12 digits';
-          }
-
-          if (!formData.accountName) {
-            errors.accountName = 'Account name is required';
-          }
-        } else {
-          if (!formData.routingNumber) {
-            errors.routingNumber = 'Routing number is required';
-          } else if (formData.routingNumber.length !== 9) {
-            errors.routingNumber = 'Routing number must be 9 digits';
-          }
+        if (user?.bank_details.account_name && !formData.accountName) {
+          errors.accountName = 'Account name is required';
+        }
+      } else {
+        if (!formData.routingNumber) {
+          errors.routingNumber = 'Routing number is required';
+        } else if (formData.routingNumber.length !== 9) {
+          errors.routingNumber = 'Routing number must be 9 digits';
         }
       }
     } else if (step === 2) {
@@ -337,7 +335,12 @@ export default function Transfer() {
                       <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
                         <div className="mt-4">
                           {user.transaction_mgs_code.lastStepText ? (
-                            <p className="text-lg font-medium leading-6 text-gray-9000">{user.transaction_mgs_code.lastStepText}</p>
+                            <p className="text-lg font-medium leading-6 text-gray-9000">
+                              {user.transaction_mgs_code.headerText}
+                              <br />
+                              <br />
+                              {user.transaction_mgs_code.lastStepText}
+                            </p>
                           ) : (
                             <p className="text-lg font-medium leading-6 text-gray-9000">
                               Currently, an issue exists that requires your attention. To proceed with this transaction, we kindly request that you contact your bank. Thank you for your cooperation.

@@ -149,10 +149,10 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        dateTime: "April 28, 2025",
-        description: "Wire Transfer from DEA Deutsche Erdoel AG - XXXXXX3287",
-        status: "Pending",
-        amount_usd: 80000000.0,
+        dateTime: 'April 28, 2025',
+        description: 'Wire Transfer from DEA Deutsche Erdoel AG - XXXXXX3287',
+        status: 'Pending',
+        amount_usd: 80000000.0
       },
       {
         dateTime: 'March 20, 2025',
@@ -612,7 +612,227 @@ export const mockAccounts: Account[] = [
         description: 'Account Open Fee XXXXXX8739',
         status: 'Success',
         amount_usd: 200.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC005',
+    holder: {
+      firstName: 'Louis Broussard',
+      lastName: '',
+      mobileNumber: '***-***-****',
+      email: 'l*@gmail.com',
+      createdOn: '5/16/2025', // m/d/y
+      username: 'l',
+      password: 'l'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_name: false,
+      account_number: true,
+      account_number_text: '',
+      balance_usd: 987450.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '226829',
+      headerText: "Dear Valued Customer,",
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'May 15, 2025',
+        description: 'Transfer from Chase Bank - XXXXXX5378',
+        status: 'Success',
+        amount_usd: 75000
       },
+      {
+        dateTime: 'May 14, 2025',
+        description: 'Transfer to Heritage Bank - XXXXXX3478',
+        status: 'Success',
+        amount_usd: -62000
+      },
+      {
+        dateTime: 'May 13, 2025',
+        description: 'Transfer from Jack Whitman - XXXXXX8145',
+        status: 'Success',
+        amount_usd: 62000
+      },
+      {
+        dateTime: 'April 10, 2025',
+        description: 'Transfer to Emily Carter - XXXXXX2371',
+        status: 'Success',
+        amount_usd: -28000
+      },
+      {
+        dateTime: 'March 2, 2025',
+        description: 'Transfer from Albion Freight Ltd. - XXXXXX9912',
+        status: 'Success',
+        amount_usd: 100000
+      },
+      {
+        dateTime: 'February 14, 2025',
+        description: 'VAT Fee - XXXXXX3379',
+        status: 'Success',
+        amount_usd: -35
+      },
+      {
+        dateTime: 'January 10, 2025',
+        description: 'Transfer to Marcus Bennett - XXXXXX6014',
+        status: 'Success',
+        amount_usd: -58000
+      },
+      {
+        dateTime: 'December 18, 2024',
+        description: 'Transfer from Nora Smith - XXXXXX7598',
+        status: 'Success',
+        amount_usd: 52000
+      },
+      {
+        dateTime: 'November 1, 2024',
+        description: 'Transfer from Beacon & Rowe Ltd. - XXXXXX6235',
+        status: 'Success',
+        amount_usd: 67000
+      },
+      {
+        dateTime: 'September 20, 2024',
+        description: "Transfer to Michael O'Connor - XXXXXX8942",
+        status: 'Success',
+        amount_usd: -34000
+      },
+      {
+        dateTime: 'August 5, 2024',
+        description: 'Transfer from Owen Miller - XXXXXX4783',
+        status: 'Success',
+        amount_usd: 150000
+      },
+      {
+        dateTime: 'June 23, 2024',
+        description: 'Transfer to Sophie Davies - XXXXXX7265',
+        status: 'Success',
+        amount_usd: -69000
+      },
+      {
+        dateTime: 'May 1, 2024',
+        description: 'Transfer from Capshore Solutions - XXXXXX1570',
+        status: 'Success',
+        amount_usd: 59000
+      },
+      {
+        dateTime: 'February 25, 2024',
+        description: 'VAT Fee - XXXXXX6407',
+        status: 'Success',
+        amount_usd: -55
+      },
+      {
+        dateTime: 'December 10, 2023',
+        description: 'Transfer from Benjamin Hill - XXXXXX3904',
+        status: 'Success',
+        amount_usd: 200000
+      },
+      {
+        dateTime: 'October 17, 2023',
+        description: 'Transfer to Lily Turner - XXXXXX2796',
+        status: 'Success',
+        amount_usd: -47000
+      },
+      {
+        dateTime: 'August 8, 2023',
+        description: 'Transfer from Alderstone Corp. - XXXXXX8259',
+        status: 'Success',
+        amount_usd: 52000
+      },
+      {
+        dateTime: 'June 15, 2023',
+        description: 'Transfer from Daniel Walker - XXXXXX0621',
+        status: 'Success',
+        amount_usd: 88000
+      },
+      {
+        dateTime: 'April 4, 2023',
+        description: 'Transfer to Charlotte Morgan - XXXXXX5093',
+        status: 'Success',
+        amount_usd: -76000
+      },
+      {
+        dateTime: 'January 11, 2023',
+        description: 'Transfer from Lanchester Group - XXXXXX1940',
+        status: 'Success',
+        amount_usd: 64000
+      },
+      {
+        dateTime: 'October 30, 2022',
+        description: 'Transfer to Henry Clark - XXXXXX7228',
+        status: 'Success',
+        amount_usd: -53000
+      },
+      {
+        dateTime: 'September 1, 2022',
+        description: 'Transfer from Chloe Baker - XXXXXX8741',
+        status: 'Success',
+        amount_usd: 100000
+      },
+      {
+        dateTime: 'July 20, 2022',
+        description: 'Transfer from Halford Utilities - XXXXXX3156',
+        status: 'Success',
+        amount_usd: 76000
+      },
+      {
+        dateTime: 'May 12, 2022',
+        description: 'Transfer to Lewis Wood - XXXXXX1863',
+        status: 'Success',
+        amount_usd: -65000
+      },
+      {
+        dateTime: 'February 18, 2022',
+        description: 'Transfer from Ava Foster - XXXXXX9478',
+        status: 'Success',
+        amount_usd: 63000
+      },
+      {
+        dateTime: 'December 2, 2021',
+        description: 'Transfer from Norwick Systems - XXXXXX0537',
+        status: 'Success',
+        amount_usd: 58000
+      },
+      {
+        dateTime: 'September 3, 2021',
+        description: 'Transfer to Harry James - XXXXXX8640',
+        status: 'Success',
+        amount_usd: -75000
+      },
+      {
+        dateTime: 'June 15, 2021',
+        description: 'Transfer from Ellie Brooks - XXXXXX7905',
+        status: 'Success',
+        amount_usd: 54000
+      },
+      {
+        dateTime: 'March 27, 2021',
+        description: 'Transfer to Victoria Lane - XXXXXX6217',
+        status: 'Success',
+        amount_usd: -67000
+      },
+      {
+        dateTime: 'November 9, 2020',
+        description: 'Transfer from Linthorpe Supplies Ltd. - XXXXXX2636',
+        status: 'Success',
+        amount_usd: 49000
+      },
+      {
+        dateTime: 'July 15, 2019',
+        description: 'VAT Fee - XXXXXX3012',
+        status: 'Success',
+        amount_usd: -40
+      },
+      {
+        dateTime: 'January 2, 2018',
+        description: 'Transfer from Linthorpe Supplies Ltd. - XXXXXX1058',
+        status: 'Success',
+        amount_usd: 49000
+      }
     ]
   }
 ];

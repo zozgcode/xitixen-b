@@ -154,7 +154,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'July 30, 2025',
         description: 'Trsx-XXXXXX3647',
         status: 'Success',
-        amount_usd: -650.0
+        amount_usd: -620.0
       },
       {
         dateTime: 'July 7, 2025',

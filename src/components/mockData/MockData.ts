@@ -132,8 +132,11 @@ export const mockAccounts: Account[] = [
       mobileNumber: '+1-***-***-****',
       email: 'b*@gmail.com',
       createdOn: '2/23/2025', // m/d/y
-      username: 'Ballesteros59',
-      password: 'KaylaBally59'
+      updatedOn: '7/30/2025', // m/d/y
+      username: 'l',
+      password: 'l'
+      // username: 'Ballesteros59',
+      // password: 'KaylaBally59'
     },
     bank_details: {
       account_type: 'Checking',
@@ -144,10 +147,17 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '226829',
+      headerText: 'Dear Valued Customer,',
       lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
       wireDate: true
     },
     transaction_history: [
+      {
+        dateTime: 'July 30, 2025',
+        description: 'Trsx-XXXXXX3647',
+        status: 'Success',
+        amount_usd: -650.0
+      },
       {
         dateTime: 'July 7, 2025',
         description: 'Trsx-XXXXXX2452',

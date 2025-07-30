@@ -36,6 +36,11 @@ export const listBks = [
     logo: "https://i.imgur.com/p5A3hR7.jpeg",
   },
   {
+    id: 5346387,
+    name: "Pathward Bank",
+    logo: "https://i.imgur.com/p5A3hR7.jpeg",
+  },
+  {
     id: 6,
     name: "Truist Bank",
     logo: "https://i.imgur.com/iyU561P.jpeg",

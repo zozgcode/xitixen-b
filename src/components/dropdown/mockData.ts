@@ -20,9 +20,29 @@ export const listBks = [
     logo: "https://i.imgur.com/xR1FYm0.jpeg",
   },
   {
-    id: 32349,
-    name: "Westconsin Credit Union",
-    logo: "https://i.imgur.com/hsjdyjsd.jpeg",
+    id: 336437,
+    name: "First-Citizens Bank",
+    logo: "https://i.imgur.com/5wlAr6T.jpeg",
+  },
+  {
+    id: 336438,
+    name: "EFCU Financial",
+    logo: "https://i.imgur.com/2qsmDnr.png",
+  },
+  {
+    id: 336439,
+    name: "Discover",
+    logo: "https://i.imgur.com/mzwzbXZ.png",
+  },
+  {
+    id: 336440,
+    name: "Addiko Bank",
+    logo: "https://i.imgur.com/k0wyrIV.png",
+  },
+  {
+    id: 338473868,
+    name: "Tremont First National Bank",
+    logo: "https://i.imgur.com/0WJqHtK.jpeg",
   },
   {
     id: 4,
@@ -34,11 +54,7 @@ export const listBks = [
     id: 5,
     name: "U.S. Bank",
     logo: "https://i.imgur.com/p5A3hR7.jpeg",
-  },
-  {
-    id: 5346387,
-    name: "Pathward Bank",
-    logo: "https://i.imgur.com/p5A3hR7.jpeg",
+    // logo: "https://i.imgur.com/rNcdWoW.jpeg",
   },
   {
     id: 6,

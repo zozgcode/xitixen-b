@@ -40,6 +40,26 @@ export const listBks = [
     logo: "https://i.imgur.com/k0wyrIV.png",
   },
   {
+    id: 336441,
+    name: "HSBC UK BANK",
+    logo: "https://i.imgur.com/k0wyrIV.png",
+  },
+  {
+    id: 336442,
+    name: "Halifax Bank",
+    logo: "https://i.imgur.com/k0wyrIV.png",
+  },
+  {
+    id: 336443,
+    name: "Barclays Uk bank",
+    logo: "https://i.imgur.com/k0wyrIV.png",
+  },
+  {
+    id: 336444,
+    name: "NatWest Bank",
+    logo: "https://i.imgur.com/k0wyrIV.png",
+  },
+  {
     id: 338473868,
     name: "Tremont First National Bank",
     logo: "https://i.imgur.com/0WJqHtK.jpeg",

@@ -60,6 +60,11 @@ export const listBks = [
     logo: "https://i.imgur.com/k0wyrIV.png",
   },
   {
+    id: 336445,
+    name: "Trustees Savings Bank",
+    logo: "https://i.imgur.com/k0wyrIV.png",
+  },
+  {
     id: 338473868,
     name: "Tremont First National Bank",
     logo: "https://i.imgur.com/0WJqHtK.jpeg",

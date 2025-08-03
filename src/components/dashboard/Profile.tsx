@@ -49,7 +49,7 @@ export default function Profile() {
             </span>
           </div>
           {user.holder.mobileNumber && (
-            <div className="flex w-full justify-between items-center">
+            <div className="hidden w-full justify-between items-center">
               <span className="text-[#3f3f3f] font-normal">Phone</span>
               <span className="text-[#252525] font-medium flex items-center gap-1">{user.holder.mobileNumber}</span>
             </div>
